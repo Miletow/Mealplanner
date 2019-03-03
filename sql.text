@@ -1,0 +1,15 @@
+CREATE TABLE DailyStats(
+	id int(11) not null AUTO_INCREMENT PRIMARY KEY,
+    date datetime not null,
+  	DailyWeight int(11) not null,
+    calories int(11) not null
+);
+
+CREATE TABLE FoodList(
+	id int(11) not null AUTO_INCREMENT PRIMARY KEY,
+  FoodName varchar(256) not null,
+  Calories int(11) not null,
+  Protein int(11) not null,
+  Carbohydrates int(11) not null,
+  Fat int(11) not null
+);
